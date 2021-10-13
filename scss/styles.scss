@@ -1,0 +1,101 @@
+$borde: black;
+
+input[type=text], input[type=number], input[type=date],
+ #comuna, #region, button[type=submit], button[type=reset], #observacion, input[type=radio], input[type=tel] {
+    border-radius: 0; 
+    border: solid 2px $borde ;
+    background-color: transparent;
+    color: $borde;
+}
+
+#edad {
+    width: 25%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+button {
+    width: 20%;
+}
+
+#comuna,#region, input[type=date] {
+    width: 70%;
+}
+
+label {
+    color: black;
+}
+
+#genero {
+    width: 25px;
+}
+
+#eliminar {
+    width: 60px;
+    background-color: transparent;
+    border: none;
+}
+
+#eliminar span:hover{
+    color:rgb(39, 39, 39);
+}
+
+#eliminar span:active{
+    color:red;
+}
+
+#agregarHab {
+    display: flex;
+    font-weight: bold;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 40px;
+}
+
+#agregarHab:hover{
+    color: rgb(49, 49, 49);
+}
+
+.material-icons.md-40 { font-size: 40px; }
+
+#form-habilidad {
+    border: solid 2px $borde;
+    width: 50%;
+}
+
+#addSkill1 {
+    width: 100px;
+    border-radius: 0; 
+    border: solid 2px $borde ;
+    background-color: transparent;
+    color: $borde;
+}
+
+#vista-habilidades ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+#vista-habilidades ul li{
+    border: solid 2px $borde;
+    padding: 5px;
+    margin: 5px;
+}
+
+#tablaClientes {
+    overflow: scroll;
+}
+
+#vl {
+    background-color: transparent;
+    border: none;
+}
