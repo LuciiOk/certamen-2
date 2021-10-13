@@ -111,7 +111,7 @@ import { Clientes } from './clientes'
 
                 imprimirCliente(cliente);
 
- 
+                form.reset();
 
                 event.preventDefault()
             }

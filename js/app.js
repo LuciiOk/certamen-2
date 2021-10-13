@@ -91,6 +91,7 @@ define(["require", "exports", "jquery", "./region"], function (require, exports,
                         habilidades: habilidades
                     };
                     imprimirCliente(cliente);
+                    form.reset();
                     event.preventDefault();
                 }
                 form.classList.add('was-validated');
